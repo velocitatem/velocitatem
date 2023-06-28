@@ -1,8 +1,9 @@
+import os
 import requests
 from github import Github
 
 # First create a Github instance using an access token
-g = Github("your access token")
+g = Github(os.environ["GITHUB_TOKEN"])
 
 # Then get the authenticated user
 user = g.get_user()
