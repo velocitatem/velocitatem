@@ -26,7 +26,7 @@ jobs:
         pip install requests PyGithub
     - name: Run script and update README
       run: |
-        python script.py > lines.txt
+        python lns.py > lines.txt
         LINES=$(cat lines.txt)
         echo "Total lines: $LINES" > README.md
       env:
