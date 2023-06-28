@@ -2,12 +2,8 @@ name: Update README
 
 on:
   schedule:
-    - cron: '0 0 * * *' # runs every day at 00:00 
-  workflow_dispatch:
+    - cron: '0 0 * * *' # runs every day at 00:00
 
-  push:
-    branches:
-    - main
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,4 +20,8 @@ jobs:
         pip install requests PyGithub
     - name: Run script and update README
       run: |
-        python lns.py > lines.txt
+        python script.py > lines.txt
+        LINES=$(cat lines.txt)
+        echo "Total lines: $LINES" > README.md
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
