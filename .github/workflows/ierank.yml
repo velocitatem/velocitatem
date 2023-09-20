@@ -16,6 +16,6 @@ jobs:
       uses: actions/checkout@v2
     - name: Run OrgGithubRanking Action
       uses: velocitatem/OrgGithubRanking@main
-      with:
+      env:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         
