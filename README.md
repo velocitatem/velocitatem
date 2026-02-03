@@ -14,6 +14,6 @@ I've built over 160 projects spanning AI/ML, educational technology, security re
 
 <div align="right">
 
-**~** [_Daniel Alves Rösel_](https://alves.world/)
+**~** [_Daniel Alves Rösel_](https://alves.world/?utm_source=github&utm_medium=profile_url)
 
 </div>
