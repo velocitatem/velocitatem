@@ -12,6 +12,8 @@ I've built over 160 projects spanning AI/ML, educational technology, security re
 
 
 
+_If GitHub [is struggling](https://www.githubstatus.com/?today) you can use [git.alves.world](https://git.alves.world/velocitatem)_
+
 <div align="right">
 
 **~** [_Daniel Alves Rösel_](https://alves.world/?utm_source=github&utm_medium=profile_url)
